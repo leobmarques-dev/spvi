@@ -1,0 +1,32 @@
+
+
+=> funcoes_controleVI.JS
+
+________ATENÇÃO_________
+
+ - Criar um CSV alternativo que lista os valores referentes a um S+ por linha. Exemplo de estrutura:
+   -- data, vi_sessao, n_sessao, momentoS+, Cliques, VI_vigor
+
+_____ FALTA CORRIGIR ______
+
+
+________ CORRIGIDO _________
+
+ - Geração de VIs: OK
+
+ - Encontrar erro que torna 'indefinido' um dos componentes da VI gerado: OK (corrigido
+   -- Como as VIS estão senod apresnetadas na mesma seq em ambos os operandos foi possivel perceber que esse erro ocorre para ambos.
+      Provavelmente na hora da passagem do return da funcao "geraVIs" para o Array "VIs_OP1".
+
+ - A Array VIs_OP2 está recebendo um componente a menos que a array com as VIs do OP 1: OK (corrigido)
+   -- Foi preciso abolir o uso do método pop() para extrair os componentes das Array de VIs dos operantes 1 e 2
+
+ - Passar os valores de VIs gerados para as variaveis que recebem cada componente da VI por tentativa (NovamediaVI_1 e NovamediaVI_2): OK (corrigido)
+   -- Os valores ja estao sendo passados corretamente no OP1, falt conferir o que esta diferente no OP 2 que permanece o erro
+
+ - Inserir a tabela direto na DIV "mensagens" e dentro de cada célula da tabela criar mais uma DIV para que a funcao DadosSessao() insira os
+  valores de VI de cada operando dentro dessas divs (as que estao dentro das celulas da tabela).
+
+ - Embaralhar as VIs do OP2: OK
+
+ - A condicinoanal dentro das funcoes de reforço que trava a continuidade da sessao para os preando selecionados: ok

@@ -1,0 +1,36 @@
+OL.col3 
+{ 
+PADDING-RIGHT: 0px; 
+PADDING-LEFT: 0px; 
+FLOAT: left; 
+PADDING-BOTTOM: 0px; 
+MARGIN: 15px 0px; 
+WIDTH: 100%; 
+PADDING-TOP: 0px; 
+list-style-type: decimal-leading-zero;
+} 
+
+OL.col3 LI 
+{ 
+PADDING-RIGHT: 2px; 
+DISPLAY: inline; 
+PADDING-LEFT: 2px; 
+FLOAT: left; 
+PADDING-BOTTOM: 2px; 
+WIDTH: 32%; 
+PADDING-TOP: 2px;
+list-style-type: decimal-leading-zero;
+}
+
+.popupDescricao {
+        left: 60%;
+        top: 56%;
+        height: auto;
+        width: auto;
+        position: absolute;
+        background-color: #FFFFFF;
+        border-left: 1px solid #8B8682;
+        border-bottom: 1px solid #8B8682;
+        border-right: 1px solid #8B8682;
+        border-top: 1px solid #8B8682;
+}

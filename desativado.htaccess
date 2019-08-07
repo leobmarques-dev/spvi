@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Sistema de Escolha"
+AuthUserFile /home/pesquisa/.htpasswd
+Require valid-user

@@ -1,0 +1,111 @@
+div.mensagens{
+background-color: #b0c4de;
+position:relative;
+height: 110px; 
+width: 110px; 
+border: 1px;
+}
+
+
+.ImgEscolha{
+ position: absolute;
+ top: 50px;
+ width: 150px;
+ height: 20px;
+ margin-left: 200px;
+}
+
+.Gera_Valores {
+ /* position: absolute; 
+ top: 50px;*/
+ width: 150px;
+ height: 20px;
+ background-color:#00FF99;"
+}
+
+.banner { 
+background:url(img/ok.png) no-repeat;
+background-color:#ab172a;
+visibility: hidden;
+position:absolute;
+height: 110px; 
+width: 110px; 
+top: 290px; 
+z-index: 1; 
+left: -50px; 
+margin-left: 50%; 
+} 
+/*  */
+.MargemSuperior {
+	display: none;
+	cursor:pointer;
+    width: 200px;
+    height: 60px;
+    border: none;
+	position: relative;
+	align: center;
+}
+
+.botaoOP1 {
+    background:url(img/geic.png) no-repeat;
+	cursor:pointer;
+    width: 359px;
+    height: 276px;
+    border: none;
+	position: relative;
+	align: center;
+}
+.botaoOP2 {
+	background:url(img/jogo.png) no-repeat;
+    cursor:pointer;
+    width: 359px;
+    height: 276px;
+    border: none;
+	position: relative;
+	align: center;
+}
+
+
+.barraOP{
+    border: 0px;
+    width: 150px;
+    padding-top: 75px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	text-align: center;
+	text-align: center;	
+	vertical-align: bottom;
+	white-space: normal; 	
+}
+
+.barraOPBkgdIMG {
+    background: url(img/white-jar-md.png) no-repeat;
+}
+
+.barraOP1{
+    /* background-image: url("img/coin_Tranp25.png"); */
+	border:0px;
+    width:129px;
+    margin:0px;
+    color:#444444;
+    padding:0px;
+	text-align:center;
+	white-space:normal; 
+}
+
+.barraOP2{
+    //* background-image: url("img/coin_Tranp25.png"); *//
+	border:0px;
+    width:129px;
+    margin:0px;
+    color:#444444;
+    padding:0px;
+	text-align:center;
+	white-space:normal; 
+}
+
+#dek {
+	POSITION:absolute;
+	VISIBILITY:hidden;
+	Z-INDEX:200;
+}
